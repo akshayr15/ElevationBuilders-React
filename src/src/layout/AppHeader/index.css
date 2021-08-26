@@ -1,8 +1,0 @@
-.ant-menu-dark.ant-menu-horizontal > .ant-menu-item,
-.ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
-  top: 0;
-  margin-top: 16px !important;
-  padding: 0 20px;
-  border-color: #001529;
-  border-bottom: 0;
-}

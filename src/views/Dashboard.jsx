@@ -3,11 +3,12 @@ import { bindActionCreators } from "redux";
 import { setConfig } from "../store/config";
 import List from "../components/dashboard/List";
 import Form from "../components/dashboard/form";
-
+import FormList from "../components/dashboard/BannerList";
 function DashboardPage(props) {
   return (
     <>
       <List />
+      <FormList />
     </>
   );
 }

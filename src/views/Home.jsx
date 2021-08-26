@@ -19,10 +19,10 @@ function HomePage(props) {
     <>
       <Slider />
       <Content />
-      <Project />       
-      <Testimonial />
-      <Contentmain />   
+      <Project />
+      <Contentmain />
       <ContactUs />
+      <Testimonial />
     </>
   );
 }

@@ -35,24 +35,23 @@ function Header() {
 
   const handleNavigate = (e) => {
     switch (e.key) {
-      case '1':
-        history.push('/home');
+      case "1":
+        history.push("/home");
         break;
-      case '2':
-        history.push('/projects');
+      case "2":
+        history.push("/projects");
         break;
-        case '3':
-        history.push('/about-us');
+      case "3":
+        history.push("/about-us");
         break;
-      case '4':
-        history.push('/why-us');
-        break;      
-      case '5':
-        history.push('/contact-us');
+      case "4":
+        history.push("/why-us");
+        break;
+      case "5":
+        history.push("/contact-us");
         break;
     }
-
-  }
+  };
 
   return (
     <div>
@@ -71,12 +70,22 @@ function Header() {
             <Menu.Item key="0" style={{ fontWeight: "400" }}>
               Elevation Builders
             </Menu.Item>
-            <Menu.Item key="1" style={{ marginLeft: "500px" }} onClick={(id) => handleNavigate(id)}>
+            <Menu.Item
+              key="1"
+              style={{ marginLeft: "500px" }}
+              onClick={(id) => handleNavigate(id)}
+            >
               Home
             </Menu.Item>
-            <Menu.Item key="2" onClick={(id) => handleNavigate(id)}>Projects</Menu.Item>
-            <Menu.Item key="3" onClick={(id) => handleNavigate(id)}>Why us</Menu.Item>
-            <Menu.Item key="4" onClick={(id) => handleNavigate(id)}>About</Menu.Item>
+            <Menu.Item key="2" onClick={(id) => handleNavigate(id)}>
+              Projects
+            </Menu.Item>
+            <Menu.Item key="3" onClick={(id) => handleNavigate(id)}>
+              Why us
+            </Menu.Item>
+            <Menu.Item key="4" onClick={(id) => handleNavigate(id)}>
+              About
+            </Menu.Item>
             <Menu.Item key="5" onClick={(id) => handleNavigate(id)}>
               Contact us
             </Menu.Item>

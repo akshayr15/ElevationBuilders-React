@@ -71,7 +71,32 @@ a:hover {
   color: #888888;
   text-decoration: none;
 }
-
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  color: rgba(255, 255, 255, 0.65);
+  background: black !important;
+}
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: black !important;
+}
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a,
+.ant-menu-dark .ant-menu-item > span > a {
+  color: white !important;
+  font-family: montserrat;
+}
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: black !important;
+}
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  color: orange !important;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -957,10 +982,7 @@ label {
   background: rgba(0, 0, 0, 0) url("./img/bg/backgroud.jpg") center center /
     cover;
 }
-.slide-4 {
-  background: rgba(0, 0, 0, 0) url("./img/bg/backgroud.jpg") center center /
-    cover;
-}
+
 .slide-5 {
   background: rgba(0, 0, 0, 0) url("./img/slider/5.jpg") no-repeat scroll center
     center / cover;
